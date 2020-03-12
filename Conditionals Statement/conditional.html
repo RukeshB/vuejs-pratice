@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conditional Statement</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>To input data enter app.seen= true/false in console</p>
+        <p v-if="seen1">You can see me</p>  
+        <p v-if="seen2">you can't see me</p> 
+    </div>
+    <div id="app2">
+        <p>To input data enter app2.value= value in console</p>
+        <p v-if="value == 20">vlue is equal to 20</p>
+        <p v-else-if="value > 20">value is greater then 20</p>
+        <p v-else>value is less then 20</p>
+    </div>
+    <script src="Conditional.js"></script>
+</body>
+</html>
